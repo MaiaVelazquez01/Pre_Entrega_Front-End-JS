@@ -61,20 +61,6 @@ html {
     color: #1898CC;
 }
 
-/* .home {
-    display: flex;
-    justify-content: center;
-    padding: 0px 20px;
-    height: 72vh;
-    margin-bottom: 2rem;
-}
-
-.home-banner {
-    margin: 0px;
-    border-radius: 12px;
-    width: 98%;
-} */
-
 .home {
     display: flex;
     justify-content: center;
