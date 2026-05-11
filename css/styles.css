@@ -446,3 +446,64 @@ html {
         text-align: center;
     }
 }
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .home-banner img {
+        height: auto;
+    }
+
+    .products-title,
+    .reviews-title,
+    .contact-title {
+        font-size: 0.9rem;
+    }
+
+    .products-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product {
+        width: 200px;
+        height: 300px;
+        padding: 0.8rem;
+    }
+
+    .product-img {
+        height: 90px;
+    }
+
+    .product-mid__description {
+        font-size: 0.6rem;
+    }
+
+    .product-bot__button {
+        width: 100%;
+    }
+
+    .reviews-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .review-card:last-child {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: 50%;
+    }
+
+    .review-info {
+        height: auto;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .site-footer {
+        padding: 0;
+        text-align: center;
+    }
+}
