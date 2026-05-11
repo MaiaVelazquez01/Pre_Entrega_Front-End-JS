@@ -379,6 +379,13 @@ html {
     transform: translateY(-5px);
 }
 
+.site-footer {
+    padding-left: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    margin: 14px 0px;
+}
+
 @media (max-width: 600px) {
 
     .home-banner img {
@@ -439,5 +446,10 @@ html {
 
     .contact-form {
         width: 80%;
+    }
+
+    .site-footer {
+        padding: 0;
+        text-align: center;
     }
 }
