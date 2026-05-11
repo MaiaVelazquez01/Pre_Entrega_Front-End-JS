@@ -507,3 +507,34 @@ html {
         text-align: center;
     }
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .home-banner img {
+        height: auto;
+    }
+
+    .products-container {
+        gap: 40px;
+    }
+
+    .reviews-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .review-card:last-child {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: 50%;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+
+    .site-footer {
+        padding: 0;
+        text-align: center;
+    }
+}
