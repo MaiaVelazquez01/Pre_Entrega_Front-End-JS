@@ -9,7 +9,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-     <link rel="icon" href="img/logo.ico">
+    <link rel="icon" href="img/logo.ico">
     <title>FarmaLab</title>
 </head>
 
@@ -26,4 +26,69 @@
             <li><a href="#contact" class="navbar-list__link">Contacto</a></li>
         </ul>
     </nav>
+    <main>
+        <section id="home" class="home">
+            <picture class="home-banner">
+                <source srcset="img/banner_mobile.png" media="(max-width: 600px)">
+                <img src="img/banner.png" alt="banner">
+            </picture>
+        </section>
+        <section id="products">
+            <h2 class="products-title">Productos</h2>
+            <div class="products-container">
+                <article class="product">
+                    <img src="img/ibuprofeno.png" class="product-img" alt="Ibuprofeno">
+                    <div class="product-info">
+                        <div class="product-top">
+                            <h3>Ibuprofeno 400mg</h3>
+                        </div>
+                        <div class="product-mid">
+                            <p class="product-mid__description">Alivia el dolor, reduce la inflamación y baja la fiebre
+                            </p>
+                            <span class="product-mid__precio">$3.739</span>
+                        </div>
+                        <div class="product-bot">
+                            <button class="product-bot__button">Agregar al carrito<i
+                                    class="fa-solid fa-cart-arrow-down"></i></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="img/buscapina.png" class="product-img" alt="Buscapina">
+                    <div class="product-info">
+                        <div class="product-top">
+                            <h3>Buscapina 10u</h3>
+                        </div>
+                        <div class="product-mid">
+                            <p class="product-mid__description">Alivia cólicos y espasmos abdominales</p>
+                            <span class="product-mid__precio">$6.231</span>
+                        </div>
+                        <div class="product-bot">
+                            <button class="product-bot__button">Agregar al carrito<i
+                                    class="fa-solid fa-cart-arrow-down"></i></button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="img/aerotina.png" class="product-img" alt="Aerotina">
+                    <div class="product-info">
+                        <div class="product-top">
+                            <h3>Aerotina 10mg</h3>
+                        </div>
+                        <div class="product-mid">
+                            <p class="product-mid__description">Alivia síntomas de alergia como estornudos, picazón y
+                                secreción nasal</p>
+                            <span class="product-mid__precio">$4.015</span>
+                        </div>
+                        <div class="product-bot">
+                            <button class="product-bot__button">Agregar al carrito<i
+                                    class="fa-solid fa-cart-arrow-down"></i></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
+
+</html>
