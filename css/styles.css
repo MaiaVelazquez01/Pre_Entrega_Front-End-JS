@@ -389,7 +389,7 @@ html {
 @media (max-width: 600px) {
 
     .home-banner img {
-        height: 70vh;
+        height: auto;
     }
 
     .navbar-list {
