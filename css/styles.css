@@ -76,7 +76,7 @@ html {
 .home-banner img {
     width: 100%;
     border-radius: 12px;
-    height: 75vh;
+    height: auto;
 }
 
 .products-title {
@@ -367,17 +367,14 @@ html {
 }
 
 .site-footer {
-    padding-left: 40px;
     font-family: "Montserrat", sans-serif;
     font-size: 0.7rem;
     margin: 14px 0px;
+    padding: 0;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
-
-    .home-banner img {
-        height: auto;
-    }
 
     .navbar-list {
         justify-content: space-between;
@@ -441,16 +438,9 @@ html {
         flex-direction: column;
     }
 
-    .site-footer {
-        padding: 0;
-        text-align: center;
-    }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
-    .home-banner img {
-        height: auto;
-    }
 
     .products-title,
     .reviews-title,
@@ -502,16 +492,9 @@ html {
         width: 80%;
     }
 
-    .site-footer {
-        padding: 0;
-        text-align: center;
-    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-    .home-banner img {
-        height: auto;
-    }
 
     .products-container {
         gap: 40px;
@@ -533,8 +516,10 @@ html {
         width: 90%;
     }
 
-    .site-footer {
-        padding: 0;
-        text-align: center;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .contact-form {
+        width: 85%;
     }
 }
