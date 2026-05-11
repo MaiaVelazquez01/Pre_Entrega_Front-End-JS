@@ -181,6 +181,85 @@ html {
     background-color: #157aa6;
 }
 
+.reviews-title {
+    padding-left: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 30px 0px 30px;
+    margin-bottom: 2rem;
+}
+
+.review-card {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.review-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-top i {
+    color: rgba(28, 97, 129, 0.616);
+    font-size: 20px;
+}
+
+.review-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 3px;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(135deg, #166489, #5EC9F5) border-box;
+    display: flex;
+    align-items: center;
+}
+
+.review-info {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    gap: 6px;
+    padding: 3px 5px 3px 15px;
+}
+
+.review-info hr {
+    width: 8%;
+    border-top: 2px solid #5EC9F5;
+}
+
+.review-name {
+    font-size: 0.78rem;
+    color: #166489;
+}
+
+.review-stars {
+    color: #166489;
+    font-size: 0.5rem;
+}
+
+.review-txt {
+    font-size: 0.7rem;
+    color: #4d4b4b;
+}
+
 @media (max-width: 600px) {
 
     .home-banner img {
@@ -233,5 +312,9 @@ html {
         width: 100%;
         font-size: 0.75rem;
         padding: 6px;
+    }
+
+    .reviews-container {
+        grid-template-columns: 1fr;
     }
 }
