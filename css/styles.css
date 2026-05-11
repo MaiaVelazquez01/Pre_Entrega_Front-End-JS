@@ -523,3 +523,9 @@ html {
         width: 85%;
     }
 }
+
+@media (min-width: 1201px) {
+    .contact-form {
+        width: 70%;
+    }
+}
